@@ -1,0 +1,203 @@
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+   
+
+    .banner__section{
+        width: 100%;
+       
+        position: relative;
+
+        @media screen and (min-width:920px) {
+            height: 120vh;
+        }
+
+        @media screen and (max-width:920px) {
+            height: 60vh;
+        }
+
+
+        .banner__image{
+            width: 100%;
+            height: 100%;
+            
+        }
+
+        .banner__section__overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--font-secondary);
+            // line-height: 42px;
+            color: #fff;
+            padding: 0px 25px;
+            text-align: center;
+
+            @media screen and (max-width:920px) {
+                padding: 100px 25px 25px 25px;
+            }
+            p{        
+                // max-width: 80%;
+                font-weight: 600;
+                // line-height: 42px;
+                // line-height: 4rem;
+
+                @media screen and (min-width:720px) {
+                    font-size: 42px;
+                }
+
+                @media screen and (max-width:720px) {
+                    font-size: 27.5px;
+                }
+            }
+            
+            .ma{
+                margin: 15px 0px;
+            }
+
+            span{
+                font-family: var(--font-urbanist);
+                margin: 5px 0px 15px 0px;
+            }
+
+            .cta__buttons{
+                display: flex;
+                gap: 15px;
+
+                button{
+                    padding: 15px;
+                    min-width: 200px;
+                    border-radius: 30px;
+                    cursor: pointer;
+                    font-family: var(--font-work-sans);
+                    font-size: 20px;
+                    font-weight: 600;
+                    border: none;
+                    color: #fff;
+
+                    @media screen and (min-width:720px) {
+                        min-width: 200px;
+                    }
+
+                    @media screen and (max-width:720px) {
+                        min-width: 175px;
+                    }
+
+
+
+                }
+
+
+                .buy__button{
+                    background: rgb(120, 185, 2); 
+                }
+
+                .get__button{
+                    background: rgb(29,155,240);
+                }
+            }
+        }
+    }
+
+    .about__section{
+        padding: 75px 25px;
+        background:rgb(13, 20, 26);
+        color: #fff;
+        font-family: var(--font-urbanist);
+        line-height: 35px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        header{
+            text-align: center;
+            margin: 0px 0px 35px 0px;
+            font-weight: 800;
+            font-family: var(--font-secondary);
+
+            
+            @media screen and (min-width:720px) {
+                font-size: 40px;
+            }
+
+            @media screen and (max-width:720px) {
+                font-size: 27.5px;
+            }
+        }
+        
+        p{
+            // max-width: 70%;
+            font-size: 17px;
+            margin: 0px 0px 20px 0px;
+        }
+
+        b{
+            font-size: 20px;
+            margin: 0px 0px 10px 0px;
+        }
+
+        // p:nth-child(2){
+          
+        // }
+    }
+
+    .meme__gallery{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        // gap: 35px;
+
+        @media screen and (min-width:720px) {
+            padding: 35px 25px;
+        }
+
+        @media screen and (max-width:720px) {
+            padding: 35px 15px;
+        }
+
+
+
+        .meme{
+            margin: 0px 0px 15px 0px;
+            height: 300px;
+            overflow: hidden;
+
+            @media screen and (min-width:720px) {
+                width: 31%;
+            }
+
+            @media screen and (max-width:720px) {
+                width: 100%;
+            }
+
+
+
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 5px;
+            }
+        }
+
+        .meme:hover img{
+            scale: 1.1;
+            transition: ease-in-out .3s;
+        }
+    }
+}
+.get-link{
+    text-decoration: none;
+    color: inherit;
+}

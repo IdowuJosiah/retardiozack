@@ -1,0 +1,89 @@
+
+.step-section-header{
+    width: 100%;
+    position: relative;
+
+
+}
+.step-section-header-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.53);
+}
+.step-section-header-image-backdrop{
+    width: 100%;
+    height: 100%;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.steps-section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 75px 25px;
+    overflow-x: scroll;
+    color: white;
+    z-index: 1;
+    .step-line{
+        width: 1px;
+        background:rgb(13, 20, 26);
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX( -50%);
+        display: none; //commented out the line
+    }
+
+    .step-container{
+        display: flex;
+
+        .step{
+            // z-index: 5;
+
+            @media screen and (min-width:720px){
+                width: 45%;
+            }
+
+            @media screen and (max-width:720px){
+                width: 100%; 
+            }
+            height: 200px;
+            // background: rgb(13, 20, 26);
+            border-radius: 5px;
+            font-family: var(--font-urbanist);
+            .career-info-container{
+                .career-info-path{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    .step-header{
+                        font-size: 38px;
+                        font-weight: 900;
+                        text-outline: black 1px;
+                    }
+                    .mid{
+                        text-outline:  black 2px;
+                    }
+                }
+            }
+        }
+    }
+
+    .step-container.right{
+        justify-content: flex-end;
+    }
+}
+.mid{
+    font-size: 20px;
+    font-weight: bolder;
+    list-style: none;
+
+ }
