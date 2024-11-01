@@ -75,13 +75,13 @@ export default function Home() {
               <b>The Comedy of Crypto</b>
               <p>
 
-                As the wise (and slightly clumsy) Captain Clunk, Retardio’s visionary founder, once said: “Not all who stumble are lost – some are just having fun!” Retardio thrives on unpredictability, reminding us all that you don’t have to be the fastest or the flashiest to make a splash in the crypto pond. Built on the principle that slapstick is strategy, Retardio offers a fresh, carefree take on tokenomics where every bump and slip is a reason to laugh, not panic.
+                As the wise (and slightly clumsy) Captain Clunk, Retardios visionary founder, once said: Not all who stumble are lost – some are just having fun! Retardio thrives on unpredictability, reminding us all that you don’t have to be the fastest or the flashiest to make a splash in the crypto pond. Built on the principle that slapstick is strategy, Retardio offers a fresh, carefree take on tokenomics where every bump and slip is a reason to laugh, not panic.
               </p>
 
               <b>Vision and Potential</b>
               <p>
 
-                Retardio envisions a world where crypto isn’t about perfection, but personality. Sure, other tokens promise "efficiency" and "optimization," but Retardio knows the real treasure is in the journey – no matter how many banana peels you trip over along the way! With a loyal community that thrives on the meme’s chaotic energy, Retardio is here to prove that taking it slow and enjoying the ride can be just as rewarding as chasing the moon.</p>
+                Retardio envisions a world where crypto isn’t about perfection, but personality. Sure, other tokens promise efficiency and optimization, but Retardio knows the real treasure is in the journey – no matter how many banana peels you trip over along the way! With a loyal community that thrives on the memes chaotic energy, Retardio is here to prove that taking it slow and enjoying the ride can be just as rewarding as chasing the moon.</p>
            
           
             
