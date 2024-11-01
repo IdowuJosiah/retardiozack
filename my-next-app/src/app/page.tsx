@@ -24,13 +24,13 @@ export default function Home() {
           <div className={styles.banner__section} id="home">
             <Image className={styles.banner__image} src={BannerImage} alt=''/>
             <div className={styles.banner__section__overlay}>
-              <p>Hi there DeGEN</p>
-              <p className={styles.ma}>It&apos;s COLOSSUS. Talking to you from the FUTURE</p>
-              <span>Let&apos;s create your own technological adventure.</span>
+              <p>Hey its zack</p>
+              <p className={styles.ma}>It&apos;s RETARDIO. GON TAKE YOU TO MEDIEVAL FUTURE</p>
+              <span>Let&apos;s create your own WHIMSICAL adventure.</span>
 
               <div className={styles.cta__buttons}>
                 <button className={styles.buy__button}><a style={{textDecoration:"none", color:"inherit"}} href="https://jup.ag/swap/SOL-8SuMAjoZeLGaaekNHP235Dv4soXsrcseFXefT3A9pump">Buy Now</a> </button>
-                <button className={styles.get__button}> <a style={{textDecoration:"none", color:"inherit"}} href="https://dexscreener.com/solana/8wgy9ke3yatcvoiw4engaxvukpqr2pmvhzcmyzavlbke">Get on Dex</a></button>
+                <button className={styles.get__button}> <a style={{textDecoration:"none", color:"inherit"}} href="https://dexscreener.com/solana/gq3wzaougwmpcsvxzvyjlkipf7bri3nw8rupilsxfs8w">Get on Dex</a></button>
               </div>
             </div>
           </div>

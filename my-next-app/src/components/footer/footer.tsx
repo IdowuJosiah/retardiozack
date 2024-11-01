@@ -9,7 +9,7 @@ import Dex from '../../../public/dex-screener-seeklogo.png'
 
 const Footer = () => {
   const [copied, setCopied] = useState(false);
-  const code = "8SuMAjoZeLGaaekNHP235Dv4soXsrcseFXefT3A9pump";
+  const code = "2mN3yfFwanRmgLVpLWcCskUuyhTr8zKoBw6nwiivpump";
 
   const handleCopy = () => {
     console.log('clicked');
@@ -21,12 +21,12 @@ const Footer = () => {
 
   return (
     <div className='footer-section' id='contact'>
-      <header className='footer-header'>Get some COLOSSUS here</header>
-      <span>Ready to do this? Let&apos;s get rich</span>
+      <header className='footer-header'>Get some RETARDIO here</header>
+      <span>Ready to do this? Let&apos;s get WHIMSICAL</span>
       <button className='copy-button' onClick={handleCopy}>CONTACT ADDRESS</button>
       <div className="footer-icons">
           <div className="links">
-              <a href="" className="">
+              <a href="https://x.com/RetardioZACK" className="">
                   <FaXTwitter/>
               </a>
           </div>
