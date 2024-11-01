@@ -52,33 +52,29 @@ export default function Home() {
           <div className={styles.about__section} id="about">
             <header>Discover the Power of the Colossus The Great</header>
           
-          <b>About Colossus</b>
+          <b>About RETARDIO</b>
             <p>
 
-              This is more than just a token - it&apos;s a community takeover and celebration of cutting-edge AI technology. Inspired by the massive Colossus supercomputer that Elon Musk himself has proclaimed as the most powerful training system in the world, our token brings the essence of AI innovation to the blockchain.
-              </p>
+              In a universe filled with complex algorithms and serious blockchains, Retardio struts in with a crooked smile, a silly hat, and a heart full of mischief. Born from the world of internet humor and fueled by the spirit of the underdog, Retardio is the meme coin that’s proud to be a little… different. If life’s moving too fast, don’t worry – Retardio takes its time, waddling along the blockchain like a lovable goof, winning hearts and wallets with its unconventional charm.
+            </p>
              
-              <b>Strategic Context</b>
+              <b>The Comedy of Crypto</b>
               <p>
-             
-              As Gilad Shainer from NVIDIA notes, AI is becoming mission-critical and requires increased performance, security, scalability and cost-efficiency. Our Colossus token aims to capture this transformative moment in technological evolution.
-          
+
+                As the wise (and slightly clumsy) Captain Clunk, Retardio’s visionary founder, once said: “Not all who stumble are lost – some are just having fun!” Retardio thrives on unpredictability, reminding us all that you don’t have to be the fastest or the flashiest to make a splash in the crypto pond. Built on the principle that slapstick is strategy, Retardio offers a fresh, carefree take on tokenomics where every bump and slip is a reason to laugh, not panic.
               </p>
 
               <b>Vision and Potential</b>
               <p>
- 
-              By bridging the world of advanced AI infrastructure with decentralized community engagement, Colossus token represents a unique intersection of technological innovation and collective ambition.
-              Born from the community&apos;s vision and inspired by xAIs groundbreaking Colossus supercomputer, our Colossus token represents a decentralized homage to the most powerful AI training system in the world.
-              </p>
+
+                Retardio envisions a world where crypto isn’t about perfection, but personality. Sure, other tokens promise "efficiency" and "optimization," but Retardio knows the real treasure is in the journey – no matter how many banana peels you trip over along the way! With a loyal community that thrives on the meme’s chaotic energy, Retardio is here to prove that taking it slow and enjoying the ride can be just as rewarding as chasing the moon.</p>
            
           
             
-            <b>Technological Inspiration</b>
+            <b>Technological Hilarity</b>
             <p>
-   
-              Colossus token draws its name and spirit from xAIs revolutionary AI infrastructure - the world&apos;s largest AI supercomputer dedicated to powering advanced language models. Just as the original Colossus comprises an impressive array of 200,000 NVIDIA Hopper GPUs, our token embodies the community&apos;s collective computational spirit.
-              Community-Driven Initiative
+
+              Unlike your typical blockchain powerhouse, Retardio’s tech is as quirky as its name. We’ve embraced the Proof-of-Dawdle mechanism, where transactions are validated not by speed, but by the patience of the community. And no, Retardio doesn’t promise lightning-fast speeds – it’s more like a comical unicycle, wobbly but always moving forward. With Retardio, you never know what’s around the corner, but it’s bound to be a good time!
             </p>  
 
           </div>
