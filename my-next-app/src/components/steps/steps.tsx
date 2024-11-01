@@ -35,7 +35,7 @@ const Steps = () => {
 
           </div>
           <div className="step-section-header-image-backdrop">
-              <img src="/GbEioERbQAAEH3P.jpeg"/>
+              <img src="/WhatsApp Image 2024-11-01 at 13.51.35.jpeg"/>
           </div>
           <div className="steps-section">
               <div className="step-line">
