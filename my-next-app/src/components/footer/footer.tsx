@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import './footer.scss';
 // import { FaTwitter } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa6';
+// import { BsTwitterX } from "react-icons/bs";
+import { RiTwitterFill } from "react-icons/ri";
 import { FaTelegramPlane } from 'react-icons/fa';
 import Image from 'next/image';
 import Dex from '../../../public/dex-screener-seeklogo.png'
@@ -27,7 +29,7 @@ const Footer = () => {
       <div className="footer-icons">
           <div className="links">
               <a href="https://x.com/RetardioZACK" className="">
-                  <FaTwitter/>
+                  <RiTwitterFill/>
               </a>
           </div>
           <div className="links">

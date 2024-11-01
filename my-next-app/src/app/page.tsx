@@ -1,4 +1,5 @@
 "use client"
+import { useState } from "react";
 import Image from "next/image";
 import styles from "./page.module.scss";
 import NavigationBar from "@/components/navbar/navbar";
@@ -14,14 +15,23 @@ import MemeSix from '../../public/WhatsApp Image 2024-11-01 at 13.51.34.jpeg'
 import MemeSeven from '../../public/WhatsApp Image 2024-11-01 at 13.51.34 (1).jpeg'
 import MemeEight from '../../public/WhatsApp Image 2024-11-01 at 13.51.35.jpeg'
 import MemeNine from '../../public/WhatsApp Image 2024-10-29 at 20.37.29.jpeg'
-
+import SlideOutWords from "@/components/slide-text/slide-text";
 import Steps from "@/components/steps/steps";
 
-export default function Home() {
 
+
+export default function Home() {
+  const words = ['Hello there', ' Colossus Welcomes you', 'To the future'];
+  const [showMainContent, setShowMainContent] = useState(false);
   return (
     <>
-    
+     {!showMainContent ? (
+      <SlideOutWords 
+        words={words} 
+        onComplete={() => setShowMainContent(true)} 
+      />
+    ) : (
+      
 
         <div className={styles.container}> 
           <NavigationBar/>
@@ -117,7 +127,7 @@ export default function Home() {
 
           <Footer/>
         </div>
-
+      )}
 
     </>
   );
