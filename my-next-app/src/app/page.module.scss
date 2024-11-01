@@ -19,10 +19,10 @@
         }
 
 
-        .banner__image{
+        .banner__video{
             width: 100%;
             height: 100%;
-            
+            object-fit: cover;
         }
 
         .banner__section__overlay{

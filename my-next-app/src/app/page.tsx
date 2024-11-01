@@ -1,9 +1,9 @@
 "use client"
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Image from "next/image";
 import styles from "./page.module.scss";
 import NavigationBar from "@/components/navbar/navbar";
-import BannerImage from '../../public/ai-generated-8644499_1280.jpg'
+// import BannerVideo from '../../public/WhatsApp Video 2024-11-01 at 13.54.00.mp4'
 import './globals.css'
 import Footer from "@/components/footer/footer";
 import MemeOne from '../../public/WhatsApp Image 2024-11-01 at 13.51.31.jpeg'
@@ -23,6 +23,9 @@ import Steps from "@/components/steps/steps";
 export default function Home() {
   const words = ['Hello there', ' Colossus Welcomes you', 'To the future'];
   const [showMainContent, setShowMainContent] = useState(false);
+
+  const videoRef = useRef<HTMLVideoElement>(null);
+
   return (
     <>
      {!showMainContent ? (
@@ -36,7 +39,19 @@ export default function Home() {
         <div className={styles.container}> 
           <NavigationBar/>
           <div className={styles.banner__section} id="home">
-            <Image className={styles.banner__image} src={BannerImage} alt=''/>
+            {/* <video className={styles.banner__image} src={BannerVideo} alt=''/> */}
+            <video
+              ref={videoRef}
+              className={styles.banner__video}
+              width="100%"
+              height="100%"
+              src='WhatsApp Video 2024-11-01 at 13.54.00.mp4'
+              loop // Ensure the video repeats when it finishes
+              muted
+              autoPlay
+              // onEnded={handleVideoEnd} // Reset to paused state when video ends
+            >
+            </video>
             <div className={styles.banner__section__overlay}>
               <p>Hey its zack</p>
               <p className={styles.ma}>It&apos;s RETARDIO. GON TAKE YOU TO MEDIEVAL FUTURE</p>
