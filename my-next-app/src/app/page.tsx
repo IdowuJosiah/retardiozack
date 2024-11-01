@@ -3,7 +3,6 @@ import { useState, useRef } from "react";
 import Image from "next/image";
 import styles from "./page.module.scss";
 import NavigationBar from "@/components/navbar/navbar";
-// import BannerVideo from '../../public/WhatsApp Video 2024-11-01 at 13.54.00.mp4'
 import './globals.css'
 import Footer from "@/components/footer/footer";
 import MemeOne from '../../public/WhatsApp Image 2024-11-01 at 13.51.31.jpeg'
@@ -21,7 +20,7 @@ import Steps from "@/components/steps/steps";
 
 
 export default function Home() {
-  const words = ['Hello there', ' Colossus Welcomes you', 'To the future'];
+  const words = ['Hello there', ' Retardio Welcomes you', 'To the Whimsical Land '];
   const [showMainContent, setShowMainContent] = useState(false);
 
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -65,7 +64,7 @@ export default function Home() {
           </div>
 
           <div className={styles.about__section} id="about">
-            <header>Discover the Power of the Colossus The Great</header>
+            <header>Discover the Power of the Retardio The Great</header>
           
           <b>About RETARDIO</b>
             <p>

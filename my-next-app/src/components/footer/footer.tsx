@@ -1,9 +1,6 @@
 "use client"
 import React, { useState } from 'react';
 import './footer.scss';
-// import { FaTwitter } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa6';
-// import { BsTwitterX } from "react-icons/bs";
 import { RiTwitterFill } from "react-icons/ri";
 import { FaTelegramPlane } from 'react-icons/fa';
 import Image from 'next/image';
