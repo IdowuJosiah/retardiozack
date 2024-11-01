@@ -5,12 +5,16 @@ import NavigationBar from "@/components/navbar/navbar";
 import BannerImage from '../../public/ai-generated-8644499_1280.jpg'
 import './globals.css'
 import Footer from "@/components/footer/footer";
-import MemeOne from '../../public/WhatsApp Image 2024-10-29 at 20.37.29.jpeg'
-import MemeTwo from '../../public/WhatsApp Image 2024-10-29 at 20.37.30.jpeg'
-import MemeThree from '../../public/GbEioERbQAAEH3P.jpeg'
-import MemeFour from '../../public/photo_2024-10-31 22.30.55.jpeg'
-import MemeFive from '../../public/WhatsApp Image 2024-10-29 at 20.37.31.jpeg'
-import MemeSix from '../../public/photo_2024-10-31 22.31.01.jpeg'
+import MemeOne from '../../public/WhatsApp Image 2024-11-01 at 13.51.31.jpeg'
+import MemeTwo from '../../public/WhatsApp Image 2024-11-01 at 13.51.31 (1).jpeg'
+import MemeThree from '../../public/WhatsApp Image 2024-11-01 at 13.51.32.jpeg'
+import MemeFour from '../../public/WhatsApp Image 2024-11-01 at 13.51.32 (1).jpeg'
+import MemeFive from '../../public/WhatsApp Image 2024-11-01 at 13.51.33.jpeg'
+import MemeSix from '../../public/WhatsApp Image 2024-11-01 at 13.51.34.jpeg'
+import MemeSeven from '../../public/WhatsApp Image 2024-11-01 at 13.51.34 (1).jpeg'
+import MemeEight from '../../public/WhatsApp Image 2024-11-01 at 13.51.35.jpeg'
+import MemeNine from '../../public/WhatsApp Image 2024-10-29 at 20.37.29.jpeg'
+
 import Steps from "@/components/steps/steps";
 
 export default function Home() {
@@ -93,6 +97,18 @@ export default function Home() {
              <div className={styles.meme}>
               <Image src={MemeSix} alt="#"/>
              </div>
+
+              <div className={styles.meme}>
+                  <Image src={MemeSeven} alt="#"/>
+              </div>
+
+              <div className={styles.meme}>
+                  <Image src={MemeEight} alt="#"/>
+              </div>
+
+              <div className={styles.meme}>
+                  <Image src={MemeNine} alt="#"/>
+              </div>
              
 
           </div>
